@@ -1,0 +1,11 @@
+@import url('./components/portfolio/portfolio.css');
+@import url('./components/scills/scills.css');
+@import url('./components/description/description.css');
+@import url('./components/header/header.css');
+
+.body{
+    width: 1445px;
+    text-align: center;
+    margin: 0 auto 25px;
+}
+

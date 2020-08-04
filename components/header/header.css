@@ -1,0 +1,10 @@
+@import url('./__name/header__name.css');
+@import url('./__menu/header__menu.css');
+@import url('./__me-info/header__me-info.css');
+@import url('./__link/header__link.css');
+@import url('./__img/header__img.css');
+@import url('./__about/header__about.css');
+
+.header{
+    padding: 50px 250px 150px;
+   }
