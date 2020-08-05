@@ -1,0 +1,11 @@
+@import url('./scills__item_webpack.css');
+@import url('./scills__item_react.css');
+@import url('./scills__item_js.css');
+@import url('./scills__item_html.css');
+@import url('./scills__item_css.css');
+
+.scills__item {
+    width: 100px;
+    height: 100px;  
+    background-size: cover;
+}

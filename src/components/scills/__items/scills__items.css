@@ -1,0 +1,6 @@
+.scills__items {
+    display: flex;
+    justify-content: space-between;     
+    width: 800px;
+    margin: 0 auto 35px;    
+}

@@ -1,0 +1,13 @@
+.footer__email {
+    text-decoration: none;
+    display: block;
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #f6f6f6;
+    color: black;
+    line-height: 50px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+
+}

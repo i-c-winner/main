@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Визитка </title>    
+    <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
+</head>
+<body class="body">
+    <a href="#home" class="top-arrow">
+    <img src="<%=require('./vendor/image/icons/arrow_circle_top_icon_144545.png').default%>"
+    alt="иконка наверх" ></a>
+<section class="header">
+    <a name="home"></a>
+    <div class="header__menu">
+        <p class="header__link">Главная</p>
+        <a href="#about" class="header__link">Обо мне</a>
+        <a href="#stec" class="header__link">Стек</a>
+        <a href="#portfolio" class="header__link">Потрфолио<ai>
+        <a href="#contacts" class="header__link">Контакты</a>
+    </div>
+    <hr>
+    <div class="header__about">        
+        <p class="header__name">Дмитрий Белоусов</p>
+        <p class="header__me-info">Frontend Developer, 41год, Санкт-Петербург</p>
+    </div>
+    <img class="header__img" src="<%=require('./vendor/image/title.png').default%>"
+    alt="глваная фотография">
+</section>
+<section class="description">
+     <a name="about"></a>
+    <h2 class="description__title">Обо мне</h2>   
+    <p class="description__paragraph">Привет всем! Меня зовут Белоусов Дмитрий. 
+        Я еще начинающий вебразработчик, но стремлюсь к новым знаниям.
+    </p>
+    <p class="description__paragraph">Имею высшее инженерное образование, курсы 
+        повышения квалификации от компании Яндекс.Практикум по направлению "Frontend".
+    </p>
+    <p class="description__paragraph">Хочу расти как специалист в этом направлении,
+        изучать новое, применять изученное. 
+    </p>
+</section>
+<section class="scills">
+    <a name="stec"></a>
+    <h2 class="scills__title">Scills</h2>
+    <p class="scills__subtitle">С чем могу работать</p>
+    <div class="scills__items">
+        <div class="scills__item scills__item_html"></div>
+        <div class="scills__item scills__item_css"></div>
+        <div class="scills__item scills__item_js"></div>
+        <div class="scills__item scills__item_react"></div>
+        
+    </div>
+    <p class="scills__description">Так же изучил и применяю на практике: методологию
+        БЭМ, могу собрать и настроить проект с помощью wepack (используя сам webpack,
+        webpack-dev-server, babel, необходимы плагины). В том числе настроить 
+    React как с помощью react-create-app так и с нуля. Знаком с системой Git (в восторге 
+    от того, что можно делать с ней).Могу работать с GitHub как с удаленным репоизторием. 
+    Но хочу знать больше, использовать лучше, думать глубже... </p>
+    </section>
+    <section class="portfolio">
+        <a name="portfolio"></a>
+        <p class="portfolio__title">Некоторые мои работы</p>
+        <div class="portfolio__project portfolio__project_girrafs">   tyr      
+        </div>
+        <a href="https://i-c-winner.github.io/girrafs/" target="blank" class="portfolio__link">Учебный проект
+        на React.</a>
+        <div class="portfolio__project portfolio__project_search">         
+        </div>
+        <a href="https://i-c-winner.github.io/final/" target="blank" class="portfolio__link">Отработка Api запросов,
+        работа. Работа с модулями.</a>
+        <div class="portfolio__project portfolio__project_places">         
+        </div>
+        <a href="https://i-c-winner.github.io/four/" target="blank" class="portfolio__link">Верстка. Grid, Flex, 
+            адаптивная.</a>
+    </section>
+    <section class="footer">
+        <a name="contacts"></a>
+        <h2 class="footer__title">Контакты</h2>
+        <h3 class="footer__subtitle">Со моной можно связаться одним из следующих
+            способов
+        </h3>
+        <a href="mailto:d-belousov@hotmail.com" class="footer__email">d-belousov@hotmail.com</a>
+        <div class="footer__links">
+            <a href="https://github.com/i-c-winner" target="blank" class="footer__link footer__link_linkedin">
+                <img src="<%=require('./vendor/image/icons/logo.png').default%>"
+                alt="иконка гитхаб">
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100000839247284" 
+            class="footer__link footer__link_facebook" target="blank">
+                <img src="<%=require('./vendor/image/icons/facebook.png').default%>"
+                alt="иконка фейсбук">
+            </a>
+            <a href="https://www.linkedin.com/feed/" class="footer__link footer__link_linkedin"
+            target="blank">
+                <img src="<%=require('./vendor/image/icons/linkedin.png').default%>"
+                alt="иконка линкендин">
+            </a>
+        </div>
+    </section>
+</body>
+</html>

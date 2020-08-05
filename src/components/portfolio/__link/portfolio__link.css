@@ -1,0 +1,17 @@
+.portfolio__link {
+    
+text-decoration: none;
+display: inline-block;
+font-weight: bold;
+margin: 30px 0 90px;
+width: 500px;
+background-color: #fff;
+border-radius: 15px;
+border: 1px solid #232323;
+}
+
+.portfolio__link:hover {
+    color: red;
+    
+    transform: scale(1.25)
+}

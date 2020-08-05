@@ -1,0 +1,8 @@
+@import url('./__title/portfolio_title.css');
+@import url('./__link/portfolio__link.css');
+@import url('./__project/portfolio__project.css');
+
+.portfolio {
+    background-color: #f6f6f6;
+    padding-top: 10px;
+}

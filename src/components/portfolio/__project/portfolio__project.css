@@ -1,0 +1,12 @@
+@import url('./_search/portfolio__project_search.css');
+@import url('./_places/portfolio__project_places.css');
+@import url('./_girrafs/portfolio__project_girrafs.css');
+
+.portfolio__project {
+    width: 500px;
+    padding:400px;  
+    margin: 0 auto;
+    background-size: cover;
+    border-radius: 30px;
+    
+}
