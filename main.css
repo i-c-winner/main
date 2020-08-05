@@ -347,10 +347,79 @@
   [hidden] {
     display: none;
   }
-.portfolio__project {
+.top-arrow{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.footer__email {
+    text-decoration: none;
+    display: block;
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #f6f6f6;
+    color: black;
+    line-height: 50px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+
+}
+.footer__links { 
+    display: inline-flex;
+    justify-content: space-around;
     width: 500px;
 }
 
+.footer__link {
+    width: 100px;
+    height: 100px;  
+}
+
+.portfolio__title{
+    font-size: 2em;
+    font-weight: bold;
+}
+.portfolio__link {
+    
+text-decoration: none;
+display: inline-block;
+font-weight: bold;
+margin: 30px 0 90px;
+width: 500px;
+background-color: #fff;
+border-radius: 15px;
+border: 1px solid #232323;
+}
+
+.portfolio__link:hover {
+    color: red;
+    
+    transform: scale(1.25)
+}
+
+.portfolio__project_search {
+    background-image: url(./images/search.png);
+   }
+.portfolio__project_places {
+    background-image: url(./images/places.png);
+}
+.portfolio__project_girrafs {
+    background-image: url(./images/girrafs.png);
+    
+}
+.portfolio__project {
+    width: 500px;
+    padding:400px;  
+    margin: 0 auto;
+    background-size: cover;
+    border-radius: 30px;
+    
+}
+.portfolio {
+    background-color: #f6f6f6;
+    padding-top: 10px;
+}
 .scills__title {
     font-size: 2.5em;
 }
@@ -360,18 +429,27 @@
 }
 .scills__items {
     display: flex;
-    justify-content: space-between;  
-    margin-bottom: 35px; 
+    justify-content: space-between;     
+    width: 800px;
+    margin: 0 auto 35px;    
 }
 
-
-
-
-
+.scills__item_react {
+    background-image: url(./images/react.png);
+}
+.scills__item_js {
+    background-image: url(./images/javascript.png);
+}
+.scills__item_html {
+    background-image: url(./images/html-5.png);
+}
+.scills__item_css {
+    background-image: url(./images/css.png);
+}
 .scills__item {
-    width: 150px;
-    height: 200px;
-    border: 1px solid red;
+    width: 100px;
+    height: 100px;  
+    background-size: cover;
 }
 .scills__description {
     font-size: 1.1em;
@@ -380,7 +458,9 @@
 }
 
 
- 
+.scills {
+    padding-bottom: 25px;
+}
 .description__title {
     font-size: 2.5em;
 }
@@ -413,6 +493,9 @@
 }
 .header__link {
     list-style-type: none;
+    text-decoration: none;
+    color: inherit;
+    margin: 0;
 }
 
 
@@ -432,6 +515,7 @@
     width: 1445px;
     text-align: center;
     margin: 0 auto 25px;
+    font-size: 20px;
 }
 
 
